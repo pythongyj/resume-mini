@@ -12,11 +12,19 @@ Page({
   // 事件处理函数
   bindViewTap() {
     wx.navigateTo({
-      url: '../logs/logs'
+      url: '../../love/pages/love/love'
     })
   },
-  onShow(){
-    
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow() {
+    if (typeof this.getTabBar === 'function' &&
+      this.getTabBar()) {
+      this.getTabBar().setData({
+        selected: 0 // 根据tab的索引值设置
+      })
+    }
   },
   onLoad() {
     if (app.globalData.userInfo) {

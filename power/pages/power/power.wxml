@@ -1,0 +1,3 @@
+<view class="container">
+  <view bindtap="bindViewTap">我的能力页面</view>
+</view>

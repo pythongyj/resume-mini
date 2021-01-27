@@ -1,7 +1,4 @@
 {
   "usingComponents": {
-    "Navbar": "/custom-tab-bar/custom-tab-bar"
-  },
-  "navigationBarTitleText": "主页",
-  "enablePullDownRefresh": true
+  }
 }

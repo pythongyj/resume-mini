@@ -1,0 +1,5 @@
+<!--love/pages/love/love.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap">我的爱好</view>
+</view>
+
